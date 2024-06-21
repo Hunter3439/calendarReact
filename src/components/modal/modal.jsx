@@ -1,10 +1,10 @@
 import { useRef } from "react"
-export default function Modal(props) 
+import './modal.css'
+export default function Modal( ) 
 {    
-    const pTest = useRef(myRef)
-    return(
-        <div className="modal-window">
-            <p ref={myRef} onChange={() =>onChange}></p>
-        </div>
-    ) 
+        return(
+        <div   className="modal-window">
+            
+        </div> 
+     ) 
 } 

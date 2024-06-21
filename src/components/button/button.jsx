@@ -6,7 +6,7 @@ export default function Button({children , onClick})
     }
      return( 
         <>
-            <button style={redButton} onClick={() =>onClick}>{children}</button>
+            <button style={redButton} onClick={onClick}>{children}</button>
         </>
      )
 }   
